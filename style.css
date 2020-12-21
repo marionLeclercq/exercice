@@ -1,0 +1,70 @@
+/* Voici votre CSS */
+body{
+    font-family: 'Poppins';
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url('img/header.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+header section {
+    position: absolute;
+    top: 52%;
+    left: 100px;
+}
+header h1 {
+    font: normal normal 900 58px/55px Poppins;
+}
+header p {
+    font: normal normal normal 40px/55px Poppins;
+}
+header a {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 0.5% 4%;
+    cursor: pointer;
+    font: normal normal normal 20px/25px Poppins;
+}
+#popup{
+    display: none; 
+}
+main h2{
+    position: relative;
+    left: 100px;
+}
+main div{
+    display: flex;
+    justify-content: center;
+}
+main section{
+    margin: 0 65px;
+}
+main section p{
+  width: 250px;
+}
+section img{
+    width: 350px;
+}
+footer{
+    clear: both;
+    
+}
+footer section {
+    text-align: center;
+    padding: 2%;
+    background-color: #F5F5F5;
+    margin: 0 100px;
+}
+footer p{
+    width: 908px;
+    margin: 20px auto;
+}
+footer div{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+}
