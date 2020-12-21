@@ -9,3 +9,10 @@ function openPopup() {
     popUp.style.display='block';
 }
 
+/* Fermeture Popup - clique sur X */
+ 
+var close = document.getElementById('close');
+
+function closePopup() {
+    popUp.style.display='none';
+}

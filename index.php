@@ -26,11 +26,13 @@ $projets = array (
 	<section>
 		<h1>Flessibilita, Design e Qualité Italiana</h1>
 		<p>L’excellence de l’agencement de bureau.</p>
-		<a id="clickPop" onclick="openPopup();">Un Pop-up</a>
+		<a id="clickPop" onclick="openPopup();">UN POP-UP</a>
 		<div id="popup">
-			<input type="email" name="email" />
-			<input type="submit" name="inscription" value="incription" />
-			<span>X</span>
+			<div>
+				<input type="email" name="email" />
+				<input id="inscription" type="submit" name="inscription" value="INCRIPTION" />		
+				<span id="close" onclick="closePopup();">X</span>
+			</div>
 		</div>
 	</section>
 </header>
