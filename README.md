@@ -3,9 +3,6 @@
 Techniques:
 - HTML, CSS, JS/JQuery, PHP
 
-Temps : 4 heures
-
-
 Consignes :
 - Intégrer le design de ci-dessous dans le fichier « index.php », en utilisant CSS, HTML et PHP (si possible).
 - Faire apparaître un pop-up qui contient un mini-formulaire avec le champ "adresse mail" en cliquant sur le bouton « pop-up ».  ( Le bouton « pop-up » dans le fichier du design en ligne est cliquable ).
